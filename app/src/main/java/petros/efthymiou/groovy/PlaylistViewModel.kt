@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 
 class PlaylistViewModel : ViewModel() {
 
-    var playlists = MutableLiveData<List<Playlist>>()
+    var playlists = MutableLiveData<Result<List<Playlist>>>()
 
 
 
